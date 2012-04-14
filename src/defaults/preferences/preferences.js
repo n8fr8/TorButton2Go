@@ -11,16 +11,16 @@ pref("extensions.{e0204bd5-9d31-402b-a99d-a6aa8ffebdca}.description", "chrome://
 // proxy prefs
 pref("extensions.torbutton.settings_method",'recommended');
 pref("extensions.torbutton.use_privoxy",true);
-pref("extensions.torbutton.http_proxy","");
-pref("extensions.torbutton.http_port",0);
+pref("extensions.torbutton.http_proxy","127.0.0.1");
+pref("extensions.torbutton.http_port",8118);
 pref("extensions.torbutton.https_proxy","");
 pref("extensions.torbutton.https_port",0);
 pref("extensions.torbutton.ftp_proxy","");
 pref("extensions.torbutton.ftp_port",0);
 pref("extensions.torbutton.gopher_proxy","");
 pref("extensions.torbutton.gopher_port",0);
-pref("extensions.torbutton.socks_host","");
-pref("extensions.torbutton.socks_port",0);
+pref("extensions.torbutton.socks_host","127.0.0.1");
+pref("extensions.torbutton.socks_port",9050);
 pref("extensions.torbutton.socks_version",5);
 pref("extensions.torbutton.locked_mode",false);
 pref("extensions.torbutton.test_url","https://check.torproject.org/?TorButton=true");
@@ -100,7 +100,7 @@ pref("extensions.torbutton.saved.webgl_disabled", false);
 //pref("extensions.torbutton.saved.dns_prefetch", false);
 
 // State prefs:
-pref("extensions.torbutton.tor_enabled",false);
+pref("extensions.torbutton.tor_enabled",true);
 pref("extensions.torbutton.proxies_applied",false);
 pref("extensions.torbutton.settings_applied",false);
 pref("extensions.torbutton.startup",false);
